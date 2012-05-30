@@ -1,0 +1,135 @@
+html{
+	font-family: 'Dosis', sans-serif;
+}
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {	
+		margin-top: 15px;	
+	}
+	
+	h1 {
+		margin-bottom: 10px;
+	}
+	
+	h2 {
+		margin-top: 10px;
+	}
+	
+	#sidebar p {
+		margin-bottom: 8px;	
+	}
+	
+	#nav-top {
+		margin-top: 70px;	
+		margin-bottom: 20px;
+	    font-size: 18px;
+	}
+	
+	#nav-bottom {
+		font-size: 12px;
+		text-align: right;	
+	}
+	
+	nav a {
+		text-transform: uppercase;	
+	}
+	
+	#nav-top a {
+		margin-right: 40px;
+	}
+    
+    #sidebar{
+    	text-align: center;
+	}
+	
+	#sidebar div{
+    	margin-top: 15px;
+    	text-transform: uppercase;
+	}
+	
+	#sidebar nav{
+		margin-top:30px;
+		margin-left:auto;
+		margin-right:auto;
+		width:156px;
+		text-align: left;
+	}
+	
+	a {
+		text-decoration: underline;
+		color:black;
+	}
+	
+	a:visited {
+		color:grey;
+	}
+	
+	a:hover {
+		color:#971449;
+	}
+	
+	
+	/* ============================= */
+	/* Vita  */
+	/* ============================= */
+	
+	span.job-title {
+		font-weight:bold;	
+	}
+	
+	p.job-description {
+		margin-bottom: 8px;
+	}
+	
+	/* ============================= */
+	/* Slideshow  */
+	/* ============================= */
+	
+	div.orbit-wrapper {
+		height: 600px !important;
+		margin-bottom:10px;
+		}
+	
+ 	div.orbit-wrapper div.slider-nav span {
+		height: 70px;
+		width: 60px;
+			
+	}
+	
+	div.orbit-wrapper div.slider-nav span.left {
+	    background: url(/images/slideshow/left-arrow.png);
+    }
+    
+    div.orbit-wrapper div.slider-nav span.right {
+	    background: url(/images/slideshow/right-arrow.png);
+    }
+
+	
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}
