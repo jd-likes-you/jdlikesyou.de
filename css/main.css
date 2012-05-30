@@ -71,6 +71,10 @@ html{
 		color:#971449;
 	}
 	
+	p.image-description {	
+		border-top: 1px solid black;
+		margin-top: 15px;
+	}
 	
 	/* ============================= */
 	/* Vita  */
