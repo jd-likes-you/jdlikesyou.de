@@ -84,6 +84,7 @@
 				<a href="/diverses.php">Diverses</a>
 				<a href="/vita.php">Vita</a>
 				<a href="/kontakt.php">Kontakt</a>
+				<a href="/impressum.php">Impressum</a>
 			</nav>
 					
 			<div role="main">
