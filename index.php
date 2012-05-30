@@ -6,8 +6,6 @@
 <h2>
 jd likes you macht Design. 
 <br>
-jd likes you hat den Blick auf das Unkonventiolle.
-<br>
 jd likes you kommt nicht von der Stange.
 <br>
 jd likes you liegst du am Herzen.

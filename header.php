@@ -78,13 +78,30 @@
 		</div>
 		
 		<div class="ninecol last">
-			<nav id="nav-top"> 
-				<a href="/webdesign.php">Webdesign</a>
-				<a href="/print.php">Print</a>
-				<a href="/diverses.php">Diverses</a>
-				<a href="/vita.php">Vita</a>
-				<a href="/kontakt.php">Kontakt</a>
-				<a href="/impressum.php">Impressum</a>
+			<nav id="nav-top">
+				<?php 
+					$navigationItems = array(
+						'/webdesign.php' => 'Webdesign',
+						'/print.php' => 'Print',
+						'/diverses.php' => 'Diverses',
+						'/vita.php' => 'Vita',
+						'/kontakt.php' => 'Kontakt',
+						'/impressum.php' => 'Impressum'
+					);
+					
+					foreach ($navigationItems as $navigationItemUrl => $navigationItemTitle)
+					{
+						$navigationEntry = '<a ';
+						
+						if ($navigationItemUrl === $_SERVER['REQUEST_URI'])
+						{
+							$navigationEntry .= 'class="active" ';
+						}
+						
+						$navigationEntry .= 'href="' . $navigationItemUrl . '">' . $navigationItemTitle . '</a>';
+						echo $navigationEntry;
+					}
+				?>
 			</nav>
 					
 			<div role="main">
