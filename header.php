@@ -48,7 +48,7 @@
 	<div class="row">
 		<div class="threecol" id="sidebar">
 			<a href="/">
-				<img src="/images/logo.png" alt="jd likes you">
+				<img src="/images/logo.png" alt="jd likes you" id="intro-img";>
 			</a>
 			
 			<div>
