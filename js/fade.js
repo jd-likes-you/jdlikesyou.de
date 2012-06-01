@@ -1,11 +1,10 @@
 function fade() {
 	var colors=[
-		"#E9FFFF",
-		"#FFFFCC",
-		"#F5E3EA",
-		"#E8EDAD",
-		"#CCEBCD",
-		"#FAEBCD"
+		"#EAFFFF",
+		"#EAFFE7",
+		"#FFF1DA",
+		"#FFEAFF",
+		"#EDE6F5"
 	];
     
     var color = colors[Math.floor(Math.random()*colors.length)]
