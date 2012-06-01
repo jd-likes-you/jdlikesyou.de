@@ -8,7 +8,8 @@ html{
 
 	body {	
 		margin-top: 20px;
-		margin-bottom: 30px;	
+		margin-bottom: 30px;
+		background-color: #f5ffff;	
 	}
 	
 	h1 {
@@ -114,8 +115,9 @@ html{
 	/* ============================= */
 	
 	div.orbit-wrapper {
-		height: 600px !important;
+		width: 700px !important;
 		margin-bottom:10px;
+		border: 1px solid #d1d3d4;
 		}
 	
  	div.orbit-wrapper div.slider-nav span {
