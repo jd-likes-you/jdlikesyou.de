@@ -8,12 +8,13 @@ html{
 
 	body {	
 		margin-top: 20px;
-		margin-bottom: 30px;
-		background-color: #f5ffff;	
+		margin-bottom: 30px;		
 	}
 	
 	h1 {
 		margin-bottom: 10px;
+		font-size: 38px;
+		margin-top: 44px;
 	}
 	
 	h2 {
@@ -45,7 +46,7 @@ html{
 	}
 
 	nav a.active:hover {
-		border-bottom: 1px solid #971449; 
+		border-bottom: 1px solid #277DAC; 
 	}
 		
 	#nav-top a {
@@ -79,7 +80,7 @@ html{
 	}
 	
 	a:hover {
-		color:#971449;
+		color:#277DAC;
 	}
 	
 	p.image-description {	
@@ -88,14 +89,26 @@ html{
 	}
 	
 	#introtext {
-		font-size: 40px;
-		line-height: 35pt;
+    	font-size: 38px;
+    	font-weight: bold;
+    	line-height: 42px;
+    	margin-top: 50px;
 	}
 	
 	#intro-img {
 		margin-bottom: 0;
    		padding-bottom: 20px;
    		border-bottom: 1px solid grey;	
+	}
+	
+	span.colortext {
+		color: #277DAC;
+	}
+	
+	
+	#line {
+		width: 1500px;
+		height: 30px;	
 	}
 	
 	/* ============================= */
@@ -115,10 +128,9 @@ html{
 	/* ============================= */
 	
 	div.orbit-wrapper {
-		width: 700px !important;
+		width: 730px !important;
 		margin-bottom:10px;
-		border: 1px solid #d1d3d4;
-		}
+	}
 	
  	div.orbit-wrapper div.slider-nav span {
 		height: 70px;

@@ -2,17 +2,18 @@
 	require 'header.php';
 ?>
 
-<article id="introtext">
-	<h1>
-	hello my friend, nice to meet you.
+<p id="introtext">
+	<span class="colortext">hello my friend</span>. schön, dass du hier bist.
 	<br>
-	jd likes you macht Design. 
+	jd likes you macht <span class="colortext">Design</span>, 
 	<br>
-	jd likes you kommt nicht von der Stange.
+	<span class="colortext">Grafik und Web</span> sind dabei das Wesentliche.
 	<br>
-	jd likes you liegst du am Herzen.
-	</h1>
-</article>
+	jd likes you liegt das am <span class="colortext">Herzen</span>.
+	<br>
+	und <span class="colortext">dir</span> auch?
+	<br>
+</p>
 
 <?php 
 	require 'footer.php';

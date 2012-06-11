@@ -1,18 +1,18 @@
 function fade() {
 	var colors=[
-		"#EAFFFF",
-		"#EAFFE7",
-		"#FFF1DA",
-		"#FFEAFF",
-		"#EDE6F5"
+		"#DB6954",
+		"#C6C385",
+		"#5D8AA8",
+		"#A3E3DB",
+		"#915C83"
 	];
-    
+
     var color = colors[Math.floor(Math.random()*colors.length)]
-    $("body").stop().animate({ backgroundColor: color}, 10000);
+    $(".colortext").stop().animate({ color: color}, 3000);
     console.log(color);
 }
 
 $(document).ready(function(){
     fade();
-    window.setInterval(fade, 10000);
+    window.setInterval(fade, 3000);
 });
