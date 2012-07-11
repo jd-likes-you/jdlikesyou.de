@@ -3,16 +3,14 @@
 ?>
 
 <p id="introtext">
-	<span class="colortext">hello my friend</span>. schön, dass du hier bist.
-	<br>
-	jd likes you macht <span class="colortext">Design</span>, 
-	<br>
-	<span class="colortext">Grafik und Web</span> sind dabei das Wesentliche.
-	<br>
-	jd likes you liegt das am <span class="colortext">Herzen</span>.
-	<br>
-	und <span class="colortext">dir</span> auch?
-	<br>
+	<span class="colortext">hello my friend</span>. wie schön, dass du hier bist.
+	jd likes you macht <span class="colortext">grafik- und webdesign</span> aus berlin, 
+	und es liegt mir am <span class="colortext">herzen</span>, dass dinge entstehen,
+	die dich und mich <span class="colortext">begeistern.</span> design, das <span class="colortext">einfach</span> und 
+	<span class="colortext">spannend</span> zugleich ist. viel spass und: <span class="colortext">i hope you like it, too.</span> 
+			
+
+
 </p>
 
 <?php 

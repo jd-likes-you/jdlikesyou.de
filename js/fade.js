@@ -8,11 +8,11 @@ function fade() {
 	];
 
     var color = colors[Math.floor(Math.random()*colors.length)]
-    $(".colortext").stop().animate({ color: color}, 3000);
+    $(".colortext").stop().animate({ color: color}, 1800);
     console.log(color);
 }
 
 $(document).ready(function(){
     fade();
-    window.setInterval(fade, 3000);
+    window.setInterval(fade, 1800);
 });

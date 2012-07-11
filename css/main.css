@@ -91,8 +91,10 @@ html{
 	#introtext {
     	font-size: 38px;
     	font-weight: bold;
-    	line-height: 42px;
+    	line-height: 45px;
     	margin-top: 50px;
+    	text-align: justify;
+    	width: 670px;
 	}
 	
 	#intro-img {
