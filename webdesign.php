@@ -5,9 +5,9 @@
 <h1>Webdesign</h1>
 
 <div id="slideshow">
-	<img src="/images/portfolio/INSM/INSM1.png" alt="bla" />
-	<img src="/images/portfolio/INSM/INSM1.png" alt="bla" />
-	<img src="/images/portfolio/INSM/INSM1.png" alt="bla" />
+	<img src="/images/portfolio/INSM/1juli_anzeige_1.jpg" alt="bla" />
+	<img src="/images/portfolio/INSM/1juli_anzeige_2.jpg" alt="bla" />
+	<img src="/images/portfolio/INSM/1juli_anzeige_3.jpg" alt="bla" />
 </div>
 
 <p class="image-description">
