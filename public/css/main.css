@@ -1,0 +1,176 @@
+html{
+	font-family: 'Quicksand', sans-serif;
+}
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	body {	
+		margin-top: 20px;
+		margin-bottom: 30px;		
+	}
+	
+	h1 {
+		margin-bottom: 10px;
+		font-size: 38px;
+		margin-top: 44px;
+	}
+	
+	h2 {
+		margin-top: 10px;
+	}
+	
+	#sidebar p {
+		margin-bottom: 8px;	
+	}
+	
+	#nav-top {
+		margin-top: 70px;	
+		margin-bottom: 20px;
+	    font-size: 18px;
+	}
+	
+	#nav-bottom {
+		font-size: 12px;
+		text-align: right;	
+	}
+	
+	nav a {
+		text-transform: uppercase;	
+	}
+	
+	nav a.active {
+		border-bottom: 1px solid grey; 
+	}
+
+	nav a.active:hover {
+		border-bottom: 1px solid #277DAC; 
+	}
+		
+	#nav-top a {
+		margin-right: 40px;
+    	font-weight: bold;
+	}
+    
+    #sidebar{
+    	text-align: center;
+	}
+	
+	#sidebar div{
+    	margin-top: 15px;
+    	text-transform: uppercase;
+	}
+	
+	#sidebar nav{
+		margin-top:30px;
+		margin-left:auto;
+		margin-right:auto;
+		width:156px;
+		text-align: left;
+	}
+	
+	a {
+		text-decoration: underline;
+		color:black;
+	}
+	
+	a:visited {
+		color:grey;
+	}
+	
+	a:hover {
+		color:#277DAC;
+	}
+	
+	p.image-description {	
+		border-top: 1px solid grey;
+		margin-top: 15px;
+	}
+	
+	#introtext {
+    	font-size: 38px;
+    	font-weight: bold;
+    	line-height: 45px;
+    	margin-top: 50px;
+    	text-align: justify;
+    	width: 670px;
+	}
+	
+	#intro-img {
+		margin-bottom: 0;
+   		padding-bottom: 20px;
+   		border-bottom: 1px solid grey;	
+	}
+	
+	span.colortext {
+		color: #277DAC;
+	}
+	
+	
+	#line {
+		width: 1500px;
+		height: 30px;	
+	}
+	
+	/* ============================= */
+	/* Vita  */
+	/* ============================= */
+	
+	span.job-title {
+		font-weight:bold;	
+	}
+	
+	p.job-description {
+		margin-bottom: 8px;
+	}
+	
+	/* ============================= */
+	/* Slideshow  */
+	/* ============================= */
+	
+	div.orbit-wrapper {
+		width: 730px !important;
+		margin-bottom:10px;
+	}
+	
+ 	div.orbit-wrapper div.slider-nav span {
+		height: 70px;
+		width: 60px;
+			
+	}
+	
+	div.orbit-wrapper div.slider-nav span.left {
+	    background: url(/images/slideshow/left-arrow.png);
+    }
+    
+    div.orbit-wrapper div.slider-nav span.right {
+	    background: url(/images/slideshow/right-arrow.png);
+    }
+
+	
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

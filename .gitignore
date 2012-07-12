@@ -1,2 +1,20 @@
 /images/portfolio/*
-.DS_Store
+
+composer.lock
+
+# Eclipse #
+###########
+.buildpath
+.project
+.settings
+
+# Logs #
+########
+*.log
+
+# OS generated files #
+######################
+.DS_Store*
+ehthumbs.db
+Icon?
+Thumbs.db
