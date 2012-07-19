@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/" xmlns:xi="http://www.w3.org/2003/XInclude">
+    <production>
+        <resources>
+         	<xi:include href="cachemanager.xml" xpointer="xpointer(/configdata/production/*)" />
+
+            <xi:include href="frontController.xml" xpointer="xpointer(/configdata/production/*)" />
+
+            <xi:include href="router.xml" xpointer="xpointer(/configdata/production/*)" />
+	        
+<!--            <xi:include href="mail.xml" xpointer="xpointer(/configdata/production/*)" />-->
+                
+<!--            <xi:include href="db.xml" xpointer="xpointer(/configdata/production/*)" />-->
+
+<!--            <xi:include href="multiChannel.xml" xpointer="xpointer(/configdata/production/*)" /> -->
+                
+<!-- 			<xi:include href="../../library/Yoc/configs/Yoc_Application_Resource_Smarty.xml" xpointer="xpointer(/configdata/*)" />     -->
+			
+<!--			<xi:include href="../../library/Athari/configs/Athari_Application_Resource_Doctrine.xml" xpointer="xpointer(/configdata/*)" />    -->
+                           
+			<!-- 
+				Session path needs to be set before SessionStart.
+				Necessary to set save_path to something writable or you might get random session exceptions.
+			-->
+<!--             <session><save_path><zf:const zf:name="ATHARI_BASEDIR" />data/session</save_path></session> -->
+            
+<!--             <Athari_Application_Resource_SessionStart /> -->
+	        
+            <Athari_Application_Resource_DateDefaultTimezone>
+                <defaultTimezone>UTC</defaultTimezone>
+            </Athari_Application_Resource_DateDefaultTimezone>
+            
+            <Athari_Application_Resource_Doctype>
+                <doctype>XHTML1_STRICT</doctype>
+            </Athari_Application_Resource_Doctype>
+	        
+	        <modules><placeholder /></modules>
+			
+			<!-- Set head meta view helper charset -->
+            <Athari_Application_Resource_HeadMeta />
+            
+            <Athari_Application_Resource_HeadTitle>
+                <title>jd likes you | hello my friend</title>
+            </Athari_Application_Resource_HeadTitle>
+
+<!--            <Athari_Application_Resource_HeadLink>-->
+<!--                <screen>-->
+<!--                    <href>/css/screen.css</href>-->
+<!--                </screen>-->
+<!--            </Athari_Application_Resource_HeadLink>-->
+
+<!--            <Athari_Application_Resource_HeadScript>-->
+<!--                <jquery>-->
+<!--                    <src>/js/library/jquery-ui/js/jquery-1.6.2.min.js</src>-->
+<!--                </jquery>-->
+<!--            </Athari_Application_Resource_HeadScript>-->
+           
+           <xi:include href="navigation.xml" xpointer="xpointer(/configdata/*)" />
+
+  			 <locale> 
+             	<default>en</default> 
+             </locale> 
+              
+	        <layout>
+	            <layoutPath><zf:const zf:name="APPLICATION_PATH" />library/views/layouts/</layoutPath>        
+	        </layout>
+        </resources>
+    </production>
+	
+    <development zf:extends="production">
+   	<resources>
+    	
+		<xi:include href="../../vendor/Athari/configs/Athari_Application_Resource_Debug.xml" xpointer="xpointer(/configdata/*)" />
+                
+<!--            <xi:include href="db.xml" xpointer="xpointer(/configdata/development/*)" />-->
+                
+<!--            <xi:include href="mail.xml" xpointer="xpointer(/configdata/development/*)" />-->
+   	</resources>
+    </development>
+    
+    <testing zf:extends="production">
+    </testing>
+
+    <xi:include href="../../development/configs/local_application.xml" xpointer="xpointer(/configdata/*)">
+<!--         empty fallback so there is no error if file is not present-->
+        <xi:fallback />
+    </xi:include>
+</configdata>

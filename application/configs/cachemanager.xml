@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/" xmlns:xi="http://www.w3.org/2003/XInclude">
+    <production>
+        <cachemanager>
+            <database>
+                <frontend>
+                    <name>Core</name>
+                    <options>
+                        <lifetime>3600</lifetime>
+                        <automatic_serialization>true</automatic_serialization>
+                    </options>
+                </frontend>
+                <backend>
+                    <name>File</name>
+                    <options>
+                        <cache_dir><zf:const zf:name="ATHARI_BASEDIR" />data/cache/</cache_dir>
+                    </options>
+                </backend>
+            </database>
+        </cachemanager>
+    </production>
+    <development>
+    </development>
+</configdata>

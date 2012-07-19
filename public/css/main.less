@@ -1,0 +1,188 @@
+@import 'libs/twigkit-semantic.gs-1.2/stylesheets/less/grid.less';
+
+//////////
+// GRID //
+//////////
+
+// Specify the number of columns and set column and gutter widths
+@columns: 12;
+@column-width: 60;
+@gutter-width: 20;
+
+// Remove the definition below for a pixel-based layout
+@total-width: 100%;
+
+html{
+font-family: 'DroidSansRegular', sans-serif;
+}
+
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+	#sidebar{
+		.column(3);
+	}
+	
+	#nav-top, #content
+	{
+		.column(7);
+	}
+
+	body {	
+		margin-top: 20px;
+		margin-bottom: 30px;		
+	}
+	
+	h1 {
+		margin-bottom: 10px;
+		font-size: 38px;
+		margin-top: 44px;
+	}
+	
+	h2 {
+		margin-top: 10px;
+	}
+	
+	
+	#sidebar p {
+		margin-bottom: 8px;	
+	}
+	
+	#nav-top {
+		margin-top: 70px;	
+		margin-bottom: 20px;
+	    font-size: 18px;
+	}
+		
+	#nav-top a {
+		text-transform: uppercase;	
+		margin-right: 20px;
+    	font-weight: bold;
+	}
+	
+	#nav-top li {
+		display: inline;
+	}
+	
+	#nav-top li.active a {
+		border-bottom: 1px solid grey; 
+	}
+
+	#nav-top li.active a:hover {
+		border-bottom: 1px solid #277DAC; 
+	}
+    
+    #sidebar{
+    	text-align: center;
+	}
+	
+	#sidebar div{
+    	margin-top: 15px;
+    	text-transform: uppercase;
+	}
+	
+	a {
+		text-decoration: underline;
+		color:black;
+	}
+	
+	a:visited {
+		color:grey;
+	}
+	
+	a:hover {
+		color:#277DAC;
+	}
+	
+	p.image-description {	
+		border-top: 1px solid grey;
+		margin-top: 15px;
+	}
+	
+	#introtext {
+    	font-size: 38px;
+    	font-weight: bold;
+    	line-height: 45px;
+    	margin-top: 50px;
+    	text-align: justify;
+    	width: 670px;
+	}
+	
+	#intro-img {
+		margin-bottom: 0;
+   		padding-bottom: 20px;
+   		border-bottom: 1px solid grey;	
+	}
+	
+	span.colortext {
+		color: #277DAC;
+	}
+	
+	
+	#line {
+		width: 1500px;
+		height: 30px;	
+	}
+	
+	/* ============================= */
+	/* Vita  */
+	/* ============================= */
+	
+	span.job-title {
+		font-weight:bold;	
+	}
+	
+	p.job-description {
+		margin-bottom: 8px;
+	}
+	
+	/* ============================= */
+	/* Slideshow  */
+	/* ============================= */
+	
+	div.orbit-wrapper {
+		width: 730px !important;
+		margin-bottom:10px;
+	}
+	
+ 	div.orbit-wrapper div.slider-nav span {
+		height: 70px;
+		width: 60px;
+			
+	}
+	
+	div.orbit-wrapper div.slider-nav span.left {
+	    background: url(/images/slideshow/left-arrow.png);
+    }
+    
+    div.orbit-wrapper div.slider-nav span.right {
+	    background: url(/images/slideshow/right-arrow.png);
+    }
+
+	
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+		
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+/*	.logo {
+		background: url(logo2x.jpg) no-repeat;
+		background-size: 212px 303px;
+	}*/
+
+}

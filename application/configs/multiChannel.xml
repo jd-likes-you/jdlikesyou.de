@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/" xmlns:xi="http://www.w3.org/2003/XInclude">
+    <production>
+    	<Yoc_Application_Resource_MultiChannel>
+    		<ControllerPlugin>Yoc_Controller_Plugin_MultiChannel</ControllerPlugin>
+    		<ActionHelper>Yoc_Controller_Action_Helper_MultiChannel</ActionHelper>
+    		<Channels>
+	    		<WebApp>
+	    			<Suffix>app.</Suffix>
+	    			<Cases>
+	    				<Case>
+			    			<Condition>
+			    				<Origin>HttpHeader</Origin>
+				    			<Name>Via</Name>
+				    			<Operator>Contains</Operator>
+				    			<Value>Sevenval FIT Server</Value>
+				    		</Condition>
+				    		<Condition>
+			    				<Origin>Cookie</Origin>
+				    			<Name>type</Name>
+				    			<Operator>Equal</Operator>
+				    			<Value>tablet</Value>
+				    		</Condition>
+	    				</Case>
+	    				<Case>
+			    			<Condition>
+			    				<Origin>HttpHeader</Origin>
+				    			<Name>Via</Name>
+				    			<Operator>Contains</Operator>
+				    			<Value>Sevenval FIT Server</Value>
+				    		</Condition>
+				    		<Condition>
+			    				<Origin>Cookie</Origin>
+				    			<Name>os_name</Name>
+				    			<Operator>Equal</Operator>
+				    			<Value>Android OS</Value>
+				    		</Condition>
+				    		<Condition>
+			    				<Origin>Cookie</Origin>
+				    			<Name>os_version</Name>
+				    			<Operator>GreaterEqual</Operator>
+				    			<Value>2.0</Value>
+				    		</Condition>
+			    		</Case>
+		    		</Cases>
+	    		</WebApp>
+	    		<Mobile>
+	    			<Suffix>fit.</Suffix>
+	    			<Cases>
+	    				<Case>
+			    			<Condition>
+			    				<Origin>HttpHeader</Origin>
+				    			<Name>Via</Name>
+				    			<Operator>Contains</Operator>
+				    			<Value>Sevenval FIT Server</Value>
+				    		</Condition>
+			    		</Case>
+		    		</Cases>
+	    		</Mobile>
+	    		<Desktop />
+    		</Channels>
+    	</Yoc_Application_Resource_MultiChannel>
+    </production>
+</configdata>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/" xmlns:xi="http://www.w3.org/2003/XInclude">
+    <production>
+        <Athari_Application_Resource_Frontcontroller>
+            <moduleDirectory><zf:const zf:name="APPLICATION_PATH" />modules/</moduleDirectory>
+            <request>Athari_Controller_Request_Http</request>
+<!--            <router>Athari_Controller_Router_Console</router>-->
+            <prefixDefaultModule>true</prefixDefaultModule>
+<!--            <noViewRenderer>true</noViewRenderer>-->
+<!--            <noErrorHandler>true</noErrorHandler>-->
+
+
+<!--            <plugins> -->
+<!-- 				<xi:include href="../../library/Yoc/configs/Yoc_ChannelSwitch.xml" xpointer="xpointer(/configdata/frontController/plugins/*)" /> -->
+
+<!--                <UserAuth>-->
+<!--                    <name>Athari_Controller_Plugin_UserAuth</name>-->
+<!--                    <stackIndex>1</stackIndex>-->
+<!--                </UserAuth>-->
+
+<!--                <Referrer>-->
+<!--                    <name>Athari_Controller_Plugin_Referrer</name>-->
+<!--                    <stackIndex>10</stackIndex>-->
+<!--                </Referrer>-->
+
+<!--                <Athari_Controller_Plugin_InputFilter>-->
+<!--                    <stackIndex>90</stackIndex>-->
+<!--                </Athari_Controller_Plugin_InputFilter>-->
+<!--                <Athari_Controller_Plugin_RequestAcceptSwitch>Athari_Controller_Plugin_RequestAcceptSwitch</Athari_Controller_Plugin_RequestAcceptSwitch>-->
+<!--            </plugins> -->
+
+			<actionHelperPaths>
+<!--                 <Yoc_Controller_Action_Helper>Yoc/Controller/Action/Helper</Yoc_Controller_Action_Helper> -->
+                <Athari_Controller_Action_Helper>Athari/Controller/Action/Helper</Athari_Controller_Action_Helper>
+            </actionHelperPaths>
+
+	        <errorController>
+	            <disableLayout>true</disableLayout>
+	            <viewScriptPath><zf:const zf:name="ATHARI_BASEDIR" />vendor/Athari/templates/error/</viewScriptPath>
+	            <viewScript>plain-html</viewScript>
+	            <viewScriptSuffix>phtml</viewScriptSuffix>
+	        </errorController>
+        </Athari_Application_Resource_Frontcontroller>
+    </production>
+</configdata>

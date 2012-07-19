@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configdata xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/" xmlns:xi="http://www.w3.org/2003/XInclude">
+    <production>
+        <mail>
+            <transport>
+                <type>smtp</type>
+                <host>mail.xyz</host>
+                <auth>login</auth>
+                <username></username>
+                <password></password>
+            </transport>
+
+            <defaultFrom>
+                <email></email>
+                <name></name>
+            </defaultFrom>
+
+            <defaultReplyTo>
+                <email></email>
+                <name></name>
+            </defaultReplyTo>
+        </mail>
+    </production>
+
+    <development>
+        <mail>
+            <transport>
+                <type>smtp</type>
+                <host></host>
+                <auth></auth>
+                <username></username>
+                <password></password>
+                <register>true</register>
+            </transport>
+
+            <defaultFrom>
+                <email></email>
+                <name></name>
+            </defaultFrom>
+        </mail>
+    </development>
+</configdata>

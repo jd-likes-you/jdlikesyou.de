@@ -1,18 +1,20 @@
-<?php 
-	require 'header.php';
-?>
+<?php
+error_reporting(0);
+ini_set('display_startup_errors', 0);
+ini_set('display_errors', 0);
 
-<p id="introtext">
-	<span class="colortext">hello my friend</span>. wie schön, dass du hier bist.
-	jd likes you macht <span class="colortext">grafik- und webdesign</span> aus berlin, 
-	und es liegt mir am <span class="colortext">herzen</span>, dass dinge entstehen,
-	die dich und mich <span class="colortext">begeistern.</span> design, das <span class="colortext">einfach</span> und 
-	<span class="colortext">spannend</span> zugleich ist. viel spass und: <span class="colortext">i hope you like it, too.</span> 
-			
+error_reporting(E_ALL|E_STRICT);
+ini_set('display_startup_errors', 1);
+ini_set('display_errors', 1);
 
+$base_dir = dirname(realpath(dirname(__FILE__))) . DIRECTORY_SEPARATOR;
+// chdir($base_dir . 'vendor');
+// $loader = require_once $base_dir . 'vendor/autoload.php';
+// if (!include_once($base_dir . 'vendor/autoload.php')) {
+// 	throw new RuntimeException($base_dir .'vendor/autoload.php could not be found. Did you run `php composer.phar install`?');
+// }
+$loader = require_once __DIR__ . '/../vendor/autoload.php';
 
-</p>
-
-<?php 
-	require 'footer.php';
-?>
+$bootstrap = new Athari_Application_Bootstrap();
+$application = $bootstrap->init($base_dir);
+$application->run();
