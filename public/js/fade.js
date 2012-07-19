@@ -9,6 +9,7 @@ function fade() {
 
     var color = colors[Math.floor(Math.random()*colors.length)]
     $(".colortext").stop().animate({ color: color}, 1800);
+    $(".colorbackground").stop().animate({ backgroundColor: color}, 1800);
     console.log(color);
 }
 
