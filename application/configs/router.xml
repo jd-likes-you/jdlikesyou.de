@@ -16,28 +16,28 @@
 				<webdesign>
 					<route>webdesign</route>
 					<defaults>
-						<module>cms</module>
+						<module>portfolio</module>
 						<controller>content</controller>
 						<action>read</action>
-						<template-name>webdesign</template-name>
+						<category>webdesign</category>
 					</defaults>
 				</webdesign>
 				<print>
 					<route>print</route>
 					<defaults>
-						<module>cms</module>
+						<module>portfolio</module>
 						<controller>content</controller>
 						<action>read</action>
-						<template-name>print</template-name>
+						<category>print</category>
 					</defaults>
 				</print>
 				<miscellaneous>
 					<route>miscellaneous</route>
 					<defaults>
-						<module>cms</module>
+						<module>portfolio</module>
 						<controller>content</controller>
 						<action>read</action>
-						<template-name>miscellaneous</template-name>
+						<category>miscellaneous</category>
 					</defaults>
 				</miscellaneous>
 				<vita>

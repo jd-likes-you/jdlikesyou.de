@@ -1,5 +1,5 @@
 $(window).load(function() {
-   $('#slideshow').orbit({
+   $('.slideshow').orbit({
    		timer: false
    });
 });

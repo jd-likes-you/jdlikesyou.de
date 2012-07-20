@@ -1,0 +1,141 @@
+{
+    "projects" :
+    [
+        {
+            "title" : "Unermesslich",
+            "date" : "März-Juli 2010",
+            "company" : "Bachelorarbeit, FH Vorarlberg (AT)",
+            "link" : "http://issuu.com/juliadechert/docs/unermesslich____measureless",
+            "linkTitle" : "Zur online Ausgabe",
+            "description" : "Staub als Gestaltungselement. Hierbei wurde durch foto- und typografische Experimente die Thematik Staub aufgefangen und transformiert widergegeben. Dem Betrachter werden neue Sichtweisen dargestellt. Ebenso liefert eine schlichte Textebene Informationen, lyrische Auffassungen oder weitere Beispiele zum Themengebiet.",
+            "images" :
+            [
+                {
+                    "src" : "BA/BA_1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "BA/BA_2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "BA/BA_3.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "BA/BA_4.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "BA/BA_5.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "BA/BA_6.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "BA/BA_7.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "Euphony Neoklassik",
+            "date" : "Oktober 2009 – Januar 2010",
+            "company" : "Semesterprojekt, FH Vorarlberg (AT)",
+            "link" : "http://issuu.com/juliadechert/docs/imgs_neoklassik",
+            "linkTitle" : "Zur online Ausgabe",
+            "description" : "Die Verschmelzung von klassischer und digitaler elektronischer Musik soll dem Betrachter in einer seriellen Gestaltungslinie vermittelt werden. Dabei ergänzen sich die verschiedenen Medien und bauen aufeinander auf.",
+            "images" :
+            [
+                {
+                    "src" : "euphony/euphony_1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "euphony/euphony_2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "euphony/euphony_3.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "euphony/euphony_4.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "euphony/euphony_5.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "Gents of Glass Booklet",
+            "date" : "April – Mai 2012",
+            "company" : "Freelance-Auftragsarbeit",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "Im Rahmen der Abschlußarbeit der Modedesignerin Nina Wahlig entstand ein Booklet, in dem die Herangehensweise an die Looks aufgrund von Bildinhalten narrativ erläutert wird. Es wurde das gesamte CD entwickelt, das die Thematik „Glas“ und „Gentlemen“ durch klare Linien und glasähnlichen Überlagerungen  transportiert. ",
+            "images" :
+            [
+                {
+                    "src" : "GoG_booklet/gents_logo.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_3.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_4.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_5.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_6.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "Gents of Glass Lookbook",
+            "date" : "April – Mai 2012",
+            "company" : "Freelance-Auftragsarbeit",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "Ein Lookbook, das die fertigen Looks in einem Modeshooting zeigt, wurde für die Modedesignerin Nina Wahlig gestaltet.",
+            "images" :
+            [
+                {
+                    "src" : "GoG_lookbook/gents_A_1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_lookbook/gents_A_2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_lookbook/gents_A_3.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_lookbook/gents_A_4.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        }
+    ]
+}

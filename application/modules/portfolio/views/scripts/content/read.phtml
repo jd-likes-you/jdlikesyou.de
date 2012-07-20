@@ -1,0 +1,21 @@
+<?php foreach ($this->projects as $project): ?>
+<h1><?php echo $project['title']; ?></h1>
+
+<div class="slideshow">
+    <?php foreach ($project['images'] as $image): ?>
+	<img src="/images/portfolio/<?php echo $this->category; ?>/<?php echo $image['src']; ?>" alt="<?php echo $image['alt']; ?>" />
+    <?php endforeach;?>
+</div>
+
+<p class="image-description">
+    <?php echo $project['date']; ?>
+    <?php echo $project['company']; ?>
+    <?php echo $project['brand']; ?>
+    <?php echo $project['description']; ?>
+    <a href="<?php echo $project['link']; ?>"><?php echo $project['linkTitle']; ?></a>
+</p>
+
+<?php endforeach;?>
+
+
+

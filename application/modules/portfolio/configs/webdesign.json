@@ -1,0 +1,149 @@
+{
+     "projects" :
+    [
+        {
+            "title" : "INSM Infografiken Arbeit",
+            "date" : "Dezember 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "http://www.insm.de/insm/kampagne/wachstum/vernichtet-fortschritt-arbeitsplaetze.html",
+            "linkTitle" : "Zur Infografik Arbeit",
+            "description" : "Konzeption und Gestaltung verschiedener Infografiken als Erweiterung der Kampagne „Wachstum“.",
+            "images" :
+            [
+                {
+                    "src" : "insm-infografik-arbeit/insm-infografik-arbeit.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+      	},
+        {
+            "title" : "INSM Infografiken Europa",
+            "date" : "Dezember 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "http://www.insm.de/insm/kampagne/wachstum/wachstum-rettet-europa.html",
+            "linkTitle" : "Zur Infografik Europa",
+            "description" : "Konzeption und Gestaltung verschiedener Infografiken als Erweiterung der Kampagne „Wachstum“.",
+            "images" :
+            [
+                {
+                    "src" : "insm-infografik-europa/insm-infografik-europa.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+		},
+        {
+            "title" : "INSM Interaktive Anzeige",
+            "date" : "Juni 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "http://www.insm.de/insm/kampagne/projekt-vollbeschaeftigung/keine-pause.html",
+            "linkTitle" : "Zur interaktiven Anzeige",
+            "description" : "Konzeption und Umsetzung der interaktiven Anzeige zur Erweiterung der Kampagne „Projekt Vollbeschäftigung“. Der Nutzer kann hierbei die Politiker aus der Pause zurück zur Arbeit befördern. Die Anzeige war „Kreation des Tages“ bei W&V am 04.07.2011.",
+            "images" :
+            [
+                {
+                    "src" : "insm-1-juli/1juli-anzeige-1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "insm-1-juli/1juli-anzeige-2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "insm-1-juli/1juli-anzeige-3.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "INSM Social Media Apperance",
+            "date" : "August 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "https://www.facebook.com/Marktwirtschaft",
+            "linkTitle" : "Zum FB-Auftritt der INSM",
+            "description" : "Gestaltung verschiedener Social Media Elemente für Facebook, wie Landing- und Welcomepages. Ebenso wurde der Auftritt bei Twitter und Youtube kampagnenspezifisch angepasst.",
+            "images" :
+            [
+                {
+                    "src" : "insm-social-media-appearance/SMA-1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "insm-social-media-appearance/SMA-2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "insm-social-media-appearance/SMA-3.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "MSN Vodafone TV-Typ",
+            "date" : "September 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "Für einen Pitch von MSN wurde für die Microsites von Vodafone TV eine Art Fragebogen entwickelt, bei dem der Nutzer feststellen kann, welches Vodafone TV-Paket das Beste für seine eigenen Vorlieben ist. Dazu wurden die verschiedenen Typ-Möglichkeiten zudem beispielhaft skizziert.",
+            "images" :
+            [
+                {
+                    "src" : "msn-tvtyp/msn-tvtyp.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "MSN Originals",
+            "date" : "August 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "In einem Pitch für MSN wurden neuartige Formate für Microsites entwickelt. Dabei entstanden unterschiedliche Konzepte und Designs.",
+            "images" :
+            [
+                {
+                    "src" : "msn-originals/msn-originals-hunting-1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "msn-originals/msn-originals-webvs-2.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "INSM Blog",
+            "date" : "Januar 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "http://blog.insm.de/",
+            "linkTitle" : "Zum INSM-Blog",
+            "description" : "Als Integration auf dem erneuerten Webauftritt der INSM wurde ein Blog gewünscht. Dieses spricht inhaltlich eine jüngere Zielgruppe an und soll dem Betrachter eine Zugehörigkeit zur INSM.de vermitteln.",
+            "images" :
+            [
+                {
+                    "src" : "insm-blog/insm-blog.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "STMAS Berufsbildungsmesse",
+            "date" : "November 2011",
+            "company" : "Saint Elmo’s Entertainment Berlin",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "Im Pitch für das „Bayerische Staatsministerium für Arbeit und Sozialordnung, Familie und Frauen“ wurde für eine Bildungsmesse der Entwurf einer Website mit Microsite sowie eine App entwickelt. Hierbei soll die jugendliche Zielgruppe angesprochen und motiviert werden die Bildungsmesse zu besuchen.",
+            "images" :
+            [
+                {
+                    "src" : "stamas-bildungsmesse/stamas-1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "stamas-bildungsmesse/stamas-2.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        }
+    ]
+}

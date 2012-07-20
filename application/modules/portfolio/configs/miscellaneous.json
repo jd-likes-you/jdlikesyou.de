@@ -1,0 +1,83 @@
+{
+    "projects" :
+    [
+        {
+            "title" : "Katze",
+            "date" : "Seit Oktober 2011",
+            "company" : "Freie Arbeit",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "",
+            "images" :
+            [
+                {
+                    "src" : "katze/katze_1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_3.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_4.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_5.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_6.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_7.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_8.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_9.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_10.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "katze/katze_11.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "Illustrationen",
+            "date" : "Seit Januar 2011",
+            "company" : "Freie Arbeit",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "",
+            "images" :
+            [
+                {
+                    "src" : "illustrationen/bolli.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "illustrationen/kroko.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "illustrationen/smiley.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        }
+    ]
+}
