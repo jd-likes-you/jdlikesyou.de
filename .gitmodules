@@ -1,0 +1,3 @@
+[submodule "vendor/Athari"]
+	path = vendor/Athari
+	url = git://github.com/anusch-athari/Athari.git
