@@ -7,7 +7,7 @@
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "http://www.insm.de/insm/kampagne/wachstum/vernichtet-fortschritt-arbeitsplaetze.html",
             "linkTitle" : "Zur Infografik Arbeit",
-            "description" : "Konzeption und Gestaltung verschiedener Infografiken als Erweiterung der Kampagne „Wachstum“.",
+            "description" : "Konzeption und Gestaltung der Infografik „Arbeit“ als Erweiterung der Kampagne „Wachstum“.",
             "images" :
             [
                 {
@@ -22,7 +22,7 @@
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "http://www.insm.de/insm/kampagne/wachstum/wachstum-rettet-europa.html",
             "linkTitle" : "Zur Infografik Europa",
-            "description" : "Konzeption und Gestaltung verschiedener Infografiken als Erweiterung der Kampagne „Wachstum“.",
+            "description" : "Konzeption und Gestaltung der Infografik „Europa“ als Erweiterung der Kampagne „Wachstum“.",
             "images" :
             [
                 {
@@ -37,7 +37,7 @@
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "http://www.insm.de/insm/kampagne/projekt-vollbeschaeftigung/keine-pause.html",
             "linkTitle" : "Zur interaktiven Anzeige",
-            "description" : "Konzeption und Umsetzung der interaktiven Anzeige zur Erweiterung der Kampagne „Projekt Vollbeschäftigung“. Der Nutzer kann hierbei die Politiker aus der Pause zurück zur Arbeit befördern. Die Anzeige war „Kreation des Tages“ bei W&V am 04.07.2011.",
+            "description" : "Konzeption und Umsetzung der interaktiven Anzeige zur Erweiterung der Kampagne „Projekt Vollbeschäftigung“. Der Nutzer kann hierbei die Politiker aus der Pause zurück zur Arbeit befördern. „Kreation des Tages“ bei W&V, 04.07.2011.",
             "images" :
             [
                 {
@@ -83,7 +83,7 @@
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "",
             "linkTitle" : "",
-            "description" : "Für einen Pitch von MSN wurde für die Microsites von Vodafone TV eine Art Fragebogen entwickelt, bei dem der Nutzer feststellen kann, welches Vodafone TV-Paket das Beste für seine eigenen Vorlieben ist. Dazu wurden die verschiedenen Typ-Möglichkeiten zudem beispielhaft skizziert.",
+            "description" : "Für einen Pitch von MSN wurde für die Microsites von Vodafone TV eine Art Fragebogen entwickelt, bei dem der Nutzer feststellen kann, welches Vodafone TV-Paket das Beste für seine Vorlieben ist. Dazu wurden die verschiedenen Typ-Möglichkeiten beispielhaft im Hintergrund der Seite skizziert.",
             "images" :
             [
                 {
@@ -98,13 +98,23 @@
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "",
             "linkTitle" : "",
-            "description" : "In einem Pitch für MSN wurden neuartige Formate für Microsites entwickelt. Dabei entstanden unterschiedliche Konzepte und Designs.",
+            "description" : "Im Pitch für MSN wurden neuartige Formate für Microsites entwickelt. Dabei entstanden unterschiedliche Konzepte, die in ersten Designs visualisiert wurden.",
             "images" :
             [
                 {
                     "src" : "msn-originals/msn-originals-hunting-1.jpg",
                     "alt" : "bild beschreibung"
                 },
+                {
+                    "src" : "msn-originals/msn-originals-webvs-2.jpg",
+                    "alt" : "bild beschreibung"
+                }
+                
+                {
+                    "src" : "msn-originals/msn-originals-webvs-2.jpg",
+                    "alt" : "bild beschreibung"
+                }
+                
                 {
                     "src" : "msn-originals/msn-originals-webvs-2.jpg",
                     "alt" : "bild beschreibung"
@@ -117,7 +127,7 @@
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "http://blog.insm.de/",
             "linkTitle" : "Zum INSM-Blog",
-            "description" : "Als Integration auf dem erneuerten Webauftritt der INSM wurde ein Blog gewünscht. Dieses spricht inhaltlich eine jüngere Zielgruppe an und soll dem Betrachter eine Zugehörigkeit zur INSM.de vermitteln.",
+            "description" : "Als Integration auf dem gerelaunchten Webauftritt der INSM wurde ein Blog gewünscht. Dieses spricht inhaltlich eine jüngere Zielgruppe an und soll dem Betrachter eine Zugehörigkeit zu INSM.de vermitteln.",
             "images" :
             [
                 {
@@ -132,7 +142,7 @@
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "",
             "linkTitle" : "",
-            "description" : "Im Pitch für das „Bayerische Staatsministerium für Arbeit und Sozialordnung, Familie und Frauen“ wurde für eine Bildungsmesse der Entwurf einer Website mit Microsite sowie eine App entwickelt. Hierbei soll die jugendliche Zielgruppe angesprochen und motiviert werden die Bildungsmesse zu besuchen.",
+            "description" : "Im Pitch für das „Bayerische Staatsministerium für Arbeit und Sozialordnung, Familie und Frauen“ wurde für eine Bildungsmesse der Entwurf einer Website mit Microsite sowie eine App gestaltet. Hierbei soll die jugendliche Zielgruppe angesprochen und motiviert werden die Bildungsmesse zu besuchen.",
             "images" :
             [
                 {
