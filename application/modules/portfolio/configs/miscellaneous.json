@@ -78,6 +78,23 @@
                     "alt" : "bild beschreibung"
                 }
             ]
+        },
+        
+        {
+            "title" : "Typografie",
+            "date" : "Januar 2011",
+            "company" : "Doppelpunkt Kommunikationsdesign",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "Typografische Vorgaben für Wer wenn nicht wir, den Berlinale 2011 prämierten Film von Andres Veil.",
+            "images" :
+            [
+                {
+                    "src" : "filmtitel/filmtitel.jpg",
+                    "alt" : "bild beschreibung"
+                }
+               
+            ]
         }
     ]
 }
