@@ -1,3 +1,4 @@
+
 {
      "projects" :
     [
@@ -51,6 +52,10 @@
                 {
                     "src" : "insm-1-juli/1juli-anzeige-3.jpg",
                     "alt" : "bild beschreibung"
+                },
+                 {
+                    "src" : "insm-1-juli/1juli-anzeige-4.jpg",
+                    "alt" : "bild beschreibung"
                 }
             ]
         },
@@ -70,11 +75,7 @@
                 {
                     "src" : "insm-social-media-appearance/SMA-2.jpg",
                     "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "insm-social-media-appearance/SMA-3.jpg",
-                    "alt" : "bild beschreibung"
-                }
+                }      
             ]
         },
         {
