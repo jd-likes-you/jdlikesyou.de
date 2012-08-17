@@ -8,10 +8,13 @@
 </div>
 
 <p class="image-description">
+	<span class="image-description-company">	
+	<?php echo $project['company']; ?>,
     <?php echo $project['date']; ?>
-    <?php echo $project['company']; ?>
-    <?php echo $project['brand']; ?>
+	</span>
+	<br>
     <?php echo $project['description']; ?>
+    <br>
     <a href="<?php echo $project['link']; ?>"><?php echo $project['linkTitle']; ?></a>
 </p>
 
