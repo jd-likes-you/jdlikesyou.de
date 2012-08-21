@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <configdata xmlns:zf="http://framework.zend.com/xml/zend-config-xml/1.0/" xmlns:xi="http://www.w3.org/2003/XInclude">
     <production>
+        <autoloaderNamespaces>
+            <namespace>JdLikesYou</namespace>
+        </autoloaderNamespaces>
+    
         <resources>
+        
          	<xi:include href="cachemanager.xml" xpointer="xpointer(/configdata/production/*)" />
 
             <xi:include href="frontController.xml" xpointer="xpointer(/configdata/production/*)" />
@@ -40,7 +45,8 @@
             <Athari_Application_Resource_HeadMeta />
             
             <Athari_Application_Resource_HeadTitle>
-                <title>jd likes you | hello my friend</title>
+                <title>jd likes you</title>
+                <seperator> | </seperator>
             </Athari_Application_Resource_HeadTitle>
 
 <!--            <Athari_Application_Resource_HeadLink>-->

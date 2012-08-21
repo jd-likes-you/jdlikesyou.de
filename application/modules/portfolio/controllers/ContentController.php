@@ -1,5 +1,5 @@
 <?php
-class Portfolio_ContentController extends Athari_Controller_Action
+class Portfolio_ContentController extends JdLikesYou_Controller_Action
 {
 	const PAGE_TITLE = 'pageTitle';
 	const PROJECTS = 'projects';
