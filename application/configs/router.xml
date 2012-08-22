@@ -52,10 +52,9 @@
 				<contact>
 					<route>contact</route>
 					<defaults>
-						<module>cms</module>
-						<controller>content</controller>
+						<module>contact</module>
+						<controller>contact-form</controller>
 						<action>read</action>
-						<template-name>contact</template-name>
 					</defaults>
 				</contact>
 				<impressum>
