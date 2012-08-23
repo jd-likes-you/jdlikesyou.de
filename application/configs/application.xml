@@ -13,7 +13,7 @@
 
             <xi:include href="router.xml" xpointer="xpointer(/configdata/production/*)" />
 	        
-<!--            <xi:include href="mail.xml" xpointer="xpointer(/configdata/production/*)" />-->
+            <xi:include href="mail.xml" xpointer="xpointer(/configdata/production/*)" />
                 
 <!--            <xi:include href="db.xml" xpointer="xpointer(/configdata/production/*)" />-->
 

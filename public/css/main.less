@@ -154,6 +154,26 @@ html, button, input, select, textarea{
 		margin-left: 1.5em;
 	}
 	
+	/* ============================= */
+	/* Flash Messages  */
+	/* ============================= */
+	
+	#flashMessages ul{
+		padding-left: 0;
+	}
+	
+	#flashMessages li{
+		list-style: none outside none;
+	}
+
+	#flashMessages li.success{
+		color: #669966;
+	}
+
+	#flashMessages li.error{
+		color: #DB6954;
+	}
+	
 	
 	/* ============================= */
 	/* Forms  */
@@ -173,6 +193,19 @@ html, button, input, select, textarea{
 	
 	dl.zend_form dd{
 		margin: 0 0 1em 0;
+	}
+	
+	dl.zend_form ul.errors{
+		padding: 0;
+		margin-top: 0.1em;
+	}
+	
+	dl.zend_form ul.errors li{
+		list-style: none outside none;
+		font-style: italic;
+		font-size: 0.8em;
+		color: #DB6954;
+		margin-left: 1px;
 	}
 	
 		

@@ -70,6 +70,21 @@ class="no-js" lang="en">
 
         <div id="content">
             <article>
+                <?php 
+                $flashMessages = Zend_Controller_Action_HelperBroker::getStaticHelper('flashMessenger')->getMessages();
+                $flashMessages = array_merge($flashMessages, $this->flashMessages);
+                
+                if (isset($flashMessages)):
+                ?>
+                <div id="flashMessages">
+                	<ul>
+                        <?php foreach ($flashMessages as $key => $flashMessage):?>
+                	 	<li class="<?php echo $flashMessage['type'];?>"><span></span><?php echo $flashMessage['text'];?></li>
+                        <?php endforeach;?>
+                	</ul>
+                </div>
+                <?php endif;?>
+                
                 <?php echo $this->layout()->content ?>
     		</article>
     	</div>

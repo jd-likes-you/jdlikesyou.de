@@ -4,15 +4,15 @@
         <mail>
             <transport>
                 <type>smtp</type>
-                <host>mail.xyz</host>
+                <host>smtp.jdlikesyou.de</host>
                 <auth>login</auth>
-                <username></username>
-                <password></password>
+                <username>contact-form@jdlikesyou.de</username>
+                <password>shqw16`wJyHsHpuA6{yq*C^=9CUMUexH?;!-`r:ZI}=9?}'/}?-N6D!qPD43kt2ZvD_mW~B"5x"(K{):LG|(Md!36Y5"Rsf:={8j</password>
             </transport>
 
             <defaultFrom>
-                <email></email>
-                <name></name>
+                <email>contact-form@jdlikesyou.de</email>
+                <name>jdlikesyou.de Contact Form</name>
             </defaultFrom>
 
             <defaultReplyTo>
@@ -21,22 +21,4 @@
             </defaultReplyTo>
         </mail>
     </production>
-
-    <development>
-        <mail>
-            <transport>
-                <type>smtp</type>
-                <host></host>
-                <auth></auth>
-                <username></username>
-                <password></password>
-                <register>true</register>
-            </transport>
-
-            <defaultFrom>
-                <email></email>
-                <name></name>
-            </defaultFrom>
-        </mail>
-    </development>
 </configdata>
