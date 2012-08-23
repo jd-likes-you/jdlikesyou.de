@@ -14,11 +14,6 @@
                 <email>contact-form@jdlikesyou.de</email>
                 <name>jdlikesyou.de Contact Form</name>
             </defaultFrom>
-
-            <defaultReplyTo>
-                <email></email>
-                <name></name>
-            </defaultReplyTo>
         </mail>
     </production>
 </configdata>

@@ -9,16 +9,10 @@ class Contact_ContactFormController extends JdLikesYou_Controller_Action
 		{
         	if ($contactForm->isValid($_POST))
         	{
-            	$this->view->assign('flashMessages', array(
-        			array(
-					    'type' => Athari_Controller_Action_Helper_FlashMessenger::TYPE_SUCCESS,
-        				'text'	 => 'Nachricht erfolgreich verschickt.')
-        			)
-    			);
-
             	$mail = new Athari_Mail();
         		$mail->addTo('hello@jdlikesyou.de');
         		$mail->setSubject('jdlikesyou.de Contact Form');
+        		$mail->setReplyTo($contactForm->getValue('email'), $contactForm->getValue('name'));
         		
         		$body = 'Name: ' . PHP_EOL . $contactForm->getValue('name') . PHP_EOL . PHP_EOL  ;
         		$body .= 'E-Mail: ' . PHP_EOL . $contactForm->getValue('email') . PHP_EOL . PHP_EOL ;
@@ -26,6 +20,9 @@ class Contact_ContactFormController extends JdLikesYou_Controller_Action
 
         		$mail->setBodyText($body);
         		$mail->send();
+        		
+            	$this->_helper->flashMessenger->addSuccessMessage('Nachricht erfolgreich verschickt.');
+        		$this->_helper->redirector->gotoRoute(array(), 'contact');
         	}else{
             	$this->view->assign('flashMessages', array(
         			array(
@@ -35,12 +32,6 @@ class Contact_ContactFormController extends JdLikesYou_Controller_Action
     			);
         	}
 		}
-
-
     	$this->view->assign('contactForm', $contactForm);   	
-    }
-    
-    public function processAction(){
-    	
     }
 }

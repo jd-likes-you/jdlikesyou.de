@@ -47,10 +47,12 @@ class="no-js" lang="en">
     </head>
     <body>
         <div id="sidebar">
-            <div class="colorbackground">&nbsp;</div>
+            
     		<a href="<?php echo $this->url(array(), 'home'); ?>">
-    			<img src="/images/logo.png" alt="jd likes you" id="intro-img">
+    			<img class="colorbackground" src="/images/logo.png" alt="jd likes you">
     		</a>
+        
+            <div class='hr'></div>
 
     		<div>
     			<p>
@@ -72,9 +74,13 @@ class="no-js" lang="en">
             <article>
                 <?php 
                 $flashMessages = Zend_Controller_Action_HelperBroker::getStaticHelper('flashMessenger')->getMessages();
-                $flashMessages = array_merge($flashMessages, $this->flashMessages);
+
+                if ($this->flashMessages !== null)
+                {
+                    $flashMessages = array_merge($flashMessages, $this->flashMessages);
+                }
                 
-                if (isset($flashMessages)):
+                if (isset($flashMessages) && (count($flashMessages) > 0)):
                 ?>
                 <div id="flashMessages">
                 	<ul>

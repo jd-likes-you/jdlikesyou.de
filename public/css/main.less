@@ -1,8 +1,8 @@
 @import 'libs/twigkit-semantic.gs-1.2/stylesheets/less/grid.less';
 
-//////////
-// GRID //
-//////////
+/* ============================= */
+/* Grid                          */
+/* ============================= */
 
 // Specify the number of columns and set column and gutter widths
 @columns: 12;
@@ -20,223 +20,213 @@ html, button, input, select, textarea{
 /* ! Layout for desktop version   */
 /* ============================== */
 
-	#sidebar{
-		.column(3);
-	}
-	
-	#nav-top, #content
-	{
-		.column(7);
-	}
+#sidebar{
+	.column(3);
+}
 
-	body {
-		background: #FFFFFF;	
-		margin-top: 20px;
-		margin-bottom: 30px;	
-	}
-	
-	h1 {
-		margin-bottom: 10px;
-		font-size: 38px;
-		margin-top: 0px;
-	}
-	
-	h2 {
-		margin-top: 10px;
-	}
-	
-	#sidebar {
-		position: relative;
-	}
-	
-	#sidebar p {
-		margin-bottom: 8px;	
-	}
-	
-	#sidebar .colorbackground {
-		height: 35px;
-		width: 150px;
-		position: absolute;
-	    top: 62px;
-	    left: 50%;
-	    margin: 0;
-	    margin-left: -75px;
-	    z-index: -1;
-	    
-	}
-	
-	#nav-top {
-		margin-top: 70px;	
-		margin-bottom: 20px;
-	    font-size: 18px;
-	}
-		
-	#nav-top a {
-		text-transform: uppercase;	
-		margin-right: 20px;
-    	font-family: 'DroidSansBold', sans-serif;
-	}
-	
-	#nav-top li {
-		display: inline;
-	}
-	
-	#nav-top li.active a {
-		border-bottom: 1px solid grey; 
-		color: black;
-	}
+#nav-top, #content
+{
+	.column(7);
+}
 
-	#nav-top li.active a:hover {
-		border-bottom: 1px solid #277DAC; 
-	}
-    
-    #sidebar{
-    	text-align: center;
-	}
-	
-	#sidebar div{
-    	margin-top: 15px;
-    	text-transform: uppercase;
-	}
-	
-	a {
-		text-decoration: underline;
-		color:black;
-	}
-	
-	a:visited {
-		color:grey;
-	}
-	
-	a:hover {
-		color:#915C83;
-	}
-	
-	p.image-description {	
-		border-top: 1px solid grey;
-		margin-top: 15px;
-	}
-	
-	span.image-description-company {
-		font-family: 'DroidSansBold', sans-serif;
-	}
-	
-	#introtext {
-    	font-size: 38px;
-		font-family: 'DroidSansBold', sans-serif;
-    	line-height: 45px;
-    	margin-top: 50px;
-    	text-align: justify;
-    	width: 670px;
-	}
-	
-	#intro-img {
-		margin-bottom: 0;
-   		padding-bottom: 20px;
-   		border-bottom: 1px solid grey;	
-	}
-	
-	span.colortext {
-		color: #277DAC;
-	}
+body {
+	background: #FFFFFF;	
+	margin-top: 20px;
+	margin-bottom: 30px;	
+}
 
-	/* ============================= */
-	/* Vita  */
-	/* ============================= */
-	
-	span.job-title {
-		font-family: 'DroidSansBold', sans-serif;	
-	}
-	
-	p.job-description {
-		margin-bottom: 1em;
-		margin-top: 0;
-		margin-left: 1.5em;
-	}
-	
-	/* ============================= */
-	/* Flash Messages  */
-	/* ============================= */
-	
-	#flashMessages ul{
-		padding-left: 0;
-	}
-	
-	#flashMessages li{
-		list-style: none outside none;
-	}
+h1 {
+	margin-bottom: 10px;
+	font-size: 38px;
+	margin-top: 0px;
+}
 
-	#flashMessages li.success{
-		color: #669966;
-	}
+h2 {
+	margin-top: 10px;
+}
 
-	#flashMessages li.error{
-		color: #DB6954;
-	}
+#sidebar {
+	position: relative;
+}
+
+#sidebar p {
+	margin-bottom: 8px;	
+}
 	
+#nav-top {
+	margin-top: 70px;	
+	margin-bottom: 20px;
+    font-size: 18px;
+}
 	
-	/* ============================= */
-	/* Forms  */
-	/* ============================= */
+#nav-top a {
+	text-transform: uppercase;	
+	margin-right: 20px;
+	font-family: 'DroidSansBold', sans-serif;
+}
+
+#nav-top li {
+	display: inline;
+}
+
+#nav-top li.active a {
+	border-bottom: 1px solid grey; 
+	color: #222222;
+}
+
+#nav-top li.active a:hover {
+	border-bottom: 1px solid #277DAC; 
+}
+
+#sidebar{
+	text-align: center;
+}
+
+#sidebar div{
+	margin-top: 15px;
+	text-transform: uppercase;
+}
+
+a {
+	text-decoration: underline;
+	color: #222222;
+}
+
+a:visited {
+	color:grey;
+}
+
+a:hover {
+	color:#915C83;
+}
+
+p.image-description {	
+	border-top: 1px solid grey;
+	margin-top: 15px;
+}
+
+span.image-description-company {
+	font-family: 'DroidSansBold', sans-serif;
+}
+
+#introtext {
+	font-size: 38px;
+	font-family: 'DroidSansBold', sans-serif;
+	line-height: 45px;
+	margin-top: 0px;
+	text-align: justify;
+	width: 670px;
+}
+
+
+#sidebar div.hr {
+	width: 160px;
+	height: 1px;
+	margin: 20px auto;
+	background-color: #222222;
+}
+
+span.colortext {
+	color: #277DAC;
+}
+
+/* ============================= */
+/* Vita                          */
+/* ============================= */
+
+span.job-title {
+	font-family: 'DroidSansBold', sans-serif;	
+}
+
+p.job-description {
+	margin-bottom: 1em;
+	margin-top: 0;
+	margin-left: 1.5em;
+}
+
+/* ============================= */
+/* Flash Messages                */
+/* ============================= */
+
+#flashMessages ul{
+	padding-left: 0;
+}
+
+#flashMessages li{
+	list-style: none outside none;
+}
+
+#flashMessages li.success{
+	color: #669966;
+}
+
+#flashMessages li.error{
+	color: #DB6954;
+}
+
+
+/* ============================= */
+/* Forms                         */
+/* ============================= */
+
+input[type=text], textarea, select{
+	width: 70%;
+	padding: 0.5em;	
+}
+input:focus, textarea:focus, select:focus{
+	border: 1px solid #666666;		
+}
+input, textarea, select{
+	border: 1px solid #BBBBBB;
+	padding: 0.5em;	
+}
+
+dl.zend_form dd{
+	margin: 0 0 1em 0;
+}
+
+dl.zend_form ul.errors{
+	padding: 0;
+	margin-top: 0.1em;
+}
+
+dl.zend_form ul.errors li{
+	list-style: none outside none;
+	font-style: italic;
+	font-size: 0.8em;
+	color: #DB6954;
+	margin-left: 1px;
+}
+
 	
-	input[type=text], textarea, select{
-		width: 70%;
-		padding: 0.5em;	
-	}
-	input:focus, textarea:focus, select:focus{
-		border: 1px solid #666666;		
-	}
-	input, textarea, select{
-		border: 1px solid #BBBBBB;
-		padding: 0.5em;	
-	}
+/* ============================= */
+/* Contact Form                  */
+/* ============================= */
+#submit-label{
+	display: none;
+}
 	
-	dl.zend_form dd{
-		margin: 0 0 1em 0;
-	}
-	
-	dl.zend_form ul.errors{
-		padding: 0;
-		margin-top: 0.1em;
-	}
-	
-	dl.zend_form ul.errors li{
-		list-style: none outside none;
-		font-style: italic;
-		font-size: 0.8em;
-		color: #DB6954;
-		margin-left: 1px;
-	}
-	
-		
-	/* ============================= */
-	/* Contact Form  */
-	/* ============================= */
-	#submit-label{
-		display: none;
-	}
-		
-	/* ============================= */
-	/* Slideshow  */
-	/* ============================= */
-	
-	div.orbit-wrapper {
-		margin-bottom:10px;
-	}
-	
- 	div.orbit-wrapper div.slider-nav span {
-		height: 46px;
-		width: 40px;
-        margin-top: -23px;		
-	}
-	
-	div.orbit-wrapper div.slider-nav span.left {
-	    background: url(/images/slideshow/left-arrow.png);
-    }
-    
-    div.orbit-wrapper div.slider-nav span.right {
-	    background: url(/images/slideshow/right-arrow.png);
-    }
+/* ============================= */
+/* Slideshow                     */
+/* ============================= */
+
+div.orbit-wrapper {
+	margin-bottom:10px;
+}
+
+div.orbit-wrapper div.slider-nav span {
+	height: 46px;
+	width: 40px;
+    margin-top: -23px;		
+}
+
+div.orbit-wrapper div.slider-nav span.left {
+    background: url(/images/slideshow/left-arrow.png);
+}
+
+div.orbit-wrapper div.slider-nav span.right {
+    background: url(/images/slideshow/right-arrow.png);
+}
 
 	
 /* ============================= */
