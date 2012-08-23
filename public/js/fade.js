@@ -3,8 +3,10 @@ function fade() {
 		"#DB6954",
 		"#C6C385",
 		"#5D8AA8",
-		"#A3E3DB",
-		"#915C83"
+		"#99cccc",
+		"#915C83",
+		"#99cc99"
+		
 	];
 
     var color = colors[Math.floor(Math.random()*colors.length)]
