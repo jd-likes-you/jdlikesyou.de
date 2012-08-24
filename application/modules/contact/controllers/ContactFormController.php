@@ -19,17 +19,20 @@ class Contact_ContactFormController extends JdLikesYou_Controller_Action
         		$body .= 'Nachricht: ' . PHP_EOL . $contactForm->getValue('body') . PHP_EOL . PHP_EOL ;
 
         		$mail->setBodyText($body);
-        		$mail->send();
         		
-            	$this->_helper->flashMessenger->addSuccessMessage('Nachricht erfolgreich verschickt.');
-        		$this->_helper->redirector->gotoRoute(array(), 'contact');
+        		try {
+        		    $mail->send();    
+                	$this->_helper->flashMessenger->addSuccessMessage('Nachricht erfolgreich verschickt.');
+            		$this->_helper->redirector->gotoRoute(array(), 'contact');
+        		} catch (Zend_Mail_Exception $e) {
+                	$this->view->assign('flashMessages', array(
+            			array(
+    					    'type' => Athari_Controller_Action_Helper_FlashMessenger::TYPE_ERROR,
+            				'text'	 => 'Leider ist ein Fehler aufgetreten. Bitte später erneut versuchen.')
+            			)
+        			);
+        		}
         	}else{
-            	$this->view->assign('flashMessages', array(
-        			array(
-					    'type' => Athari_Controller_Action_Helper_FlashMessenger::TYPE_ERROR,
-        				'text'	 => 'Bitte Eingaben überprüfen.')
-        			)
-    			);
         	}
 		}
     	$this->view->assign('contactForm', $contactForm);   	
