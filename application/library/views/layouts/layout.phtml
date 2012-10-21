@@ -48,7 +48,6 @@ class="no-js" lang="en">
     </head>
     <body>
         <div id="sidebar">
-            
     		<a href="<?php echo $this->url(array(), 'home'); ?>">
     			<img class="colorbackground" src="/images/logo.png" alt="jd likes you">
     		</a>
@@ -59,19 +58,20 @@ class="no-js" lang="en">
     			<p>
     				Julia Dechert
     				<br>
-    				Grafik-&amp; Webdesign
+    				Grafik– &amp; Webdesign
     			</p>
-    			<p>
+    			<p id="sidebar-contact">
     				<a href="<?php echo  $this->url(array(), 'contact'); ?>">Contact me !</a>
     			</p>
     		</div>
     	</div>
 
-        <nav id="nav-top">
-            <?php echo $this->navigation(); ?>
-        </nav>
-
+            
         <div id="content">
+            <nav id="nav-top">
+                <?php echo $this->navigation(); ?>
+            </nav>
+            
             <article>
                 <?php 
                 $flashMessages = Zend_Controller_Action_HelperBroker::getStaticHelper('flashMessenger')->getMessages();
@@ -103,6 +103,7 @@ class="no-js" lang="en">
 
         <script src="/js/slideshow.js" type="text/javascript"></script>
         <script src="/js/fade.js" type="text/javascript"></script>
+        <script src="/js/libs/jquery.slabtext.min.js" type="text/javascript"></script>
 
         <!-- Piwik -->
         <script type="text/javascript">

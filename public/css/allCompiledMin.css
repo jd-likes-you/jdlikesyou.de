@@ -95,10 +95,10 @@ body{width:100%;*zoom:1;*zoom:1;}body:before,body:after{content:"";display:table
 body:after{clear:both;}
 html,button,input,select,textarea{font-family:'DroidSansRegular',sans-serif;}
 #sidebar{display:inline;float:left;width:22.916666666666664%;margin:0 1.0416666666666665%;}
-#nav-top,#content{display:inline;float:left;width:56.25%;margin:0 1.0416666666666665%;}
+#content{display:inline;float:left;width:64.58333333333334%;margin:0 1.0416666666666665%;}
 body{background:#FFFFFF;margin-top:20px;margin-bottom:30px;}
-h1{margin-bottom:10px;font-size:38px;margin-top:0px;}
-h2{margin-top:10px;}
+h1{margin-bottom:0;margin-top:0;font-size:2em;}
+h2{margin-bottom:.3em;}
 #sidebar{position:relative;}
 #sidebar p{margin-bottom:8px;}
 #nav-top{margin-top:70px;margin-bottom:20px;font-size:18px;}
@@ -111,9 +111,9 @@ h2{margin-top:10px;}
 a{text-decoration:underline;color:#222222;}
 a:visited{color:grey;}
 a:hover{color:#915C83;}
-p.image-description{border-top:1px solid grey;margin-top:15px;}
+p.image-description{border-top:1px solid grey;margin-top:1em;margin-bottom:1.5em;}
 span.image-description-company{font-family:'DroidSansBold',sans-serif;}
-#introtext{font-size:38px;font-family:'DroidSansBold',sans-serif;line-height:45px;margin-top:0px;text-align:justify;width:670px;}
+#introtext{font-size:38px;font-family:'DroidSansBold',sans-serif;line-height:45px;margin-top:0px;text-align:justify;max-width:670px;}
 #sidebar div.hr{width:160px;height:1px;margin:20px auto;background-color:#222222;}
 span.colortext{color:#277DAC;}
 span.job-title{font-family:'DroidSansBold',sans-serif;}
@@ -131,6 +131,10 @@ dl.zend_form ul.errors li{list-style:none outside none;font-style:italic;font-si
 #submit-label{display:none;}
 div.orbit-wrapper{margin-bottom:10px;}
 div.orbit-wrapper div.slider-nav span{height:46px;width:40px;margin-top:-23px;}
+div.orbit .orbit-slide{width:inherit;}
 div.orbit-wrapper div.slider-nav span.left{background:url(/images/slideshow/left-arrow.png);}
 div.orbit-wrapper div.slider-nav span.right{background:url(/images/slideshow/right-arrow.png);}
-@media handheld,only screen and (max-width:767px){}@media only screen and (-webkit-min-device-pixel-ratio:2){}
+.slabtexted .slabtext{display:-moz-inline-box;display:inline-block;white-space:nowrap;}
+.slabtextinactive .slabtext{display:inline;white-space:normal;font-size:1em !important;letter-spacing:inherit !important;word-spacing:inherit !important;*letter-spacing:0 !important;*word-spacing:0 !important;}
+.slabtextdone .slabtext{display:block;}
+@media handheld,only screen and (max-width:767px){#content,#sidebar{display:inline;float:left;width:97.91666666666666%;margin:0 1.0416666666666665%;margin-bottom:1em;} #sidebar-contact{display:none;} #nav-top li{display:list-item;text-align:center;} #nav-top{margin-top:0;} dl.zend_form dd{margin:0 0 0 0;} input[type="text"],textarea,select{width:90%;}}@media only screen and (-webkit-min-device-pixel-ratio:2){}

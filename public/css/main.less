@@ -1,7 +1,7 @@
 @import 'libs/twigkit-semantic.gs-1.2/stylesheets/less/grid.less';
 
 /* ============================= */
-/* Grid                          */
+/* Grid  */
 /* ============================= */
 
 // Specify the number of columns and set column and gutter widths
@@ -24,9 +24,9 @@ html, button, input, select, textarea{
 	.column(3);
 }
 
-#nav-top, #content
+#content
 {
-	.column(7);
+	.column(8);
 }
 
 body {
@@ -36,13 +36,13 @@ body {
 }
 
 h1 {
-	margin-bottom: 10px;
-	font-size: 38px;
-	margin-top: 0px;
+	margin-bottom: 0;
+	margin-top: 0;
+	font-size: 2em;
 }
 
 h2 {
-	margin-top: 10px;
+	margin-bottom: .3em;
 }
 
 #sidebar {
@@ -102,7 +102,8 @@ a:hover {
 
 p.image-description {	
 	border-top: 1px solid grey;
-	margin-top: 15px;
+	margin-top: 1em;
+	margin-bottom: 1.5em;
 }
 
 span.image-description-company {
@@ -115,7 +116,7 @@ span.image-description-company {
 	line-height: 45px;
 	margin-top: 0px;
 	text-align: justify;
-	width: 670px;
+	max-width: 670px;
 }
 
 
@@ -131,7 +132,7 @@ span.colortext {
 }
 
 /* ============================= */
-/* Vita                          */
+/* Vita  */
 /* ============================= */
 
 span.job-title {
@@ -145,7 +146,7 @@ p.job-description {
 }
 
 /* ============================= */
-/* Flash Messages                */
+/* Flash Messages*/
 /* ============================= */
 
 #flashMessages ul{
@@ -166,7 +167,7 @@ p.job-description {
 
 
 /* ============================= */
-/* Forms                         */
+/* Forms */
 /* ============================= */
 
 input[type=text], textarea, select{
@@ -200,14 +201,14 @@ dl.zend_form ul.errors li{
 
 	
 /* ============================= */
-/* Contact Form                  */
+/* Contact Form  */
 /* ============================= */
 #submit-label{
 	display: none;
 }
 	
 /* ============================= */
-/* Slideshow                     */
+/* Slideshow     */
 /* ============================= */
 
 div.orbit-wrapper {
@@ -220,6 +221,11 @@ div.orbit-wrapper div.slider-nav span {
     margin-top: -23px;		
 }
 
+div.orbit .orbit-slide
+{
+	width: inherit;
+}
+
 div.orbit-wrapper div.slider-nav span.left {
     background: url(/images/slideshow/left-arrow.png);
 }
@@ -228,6 +234,31 @@ div.orbit-wrapper div.slider-nav span.right {
     background: url(/images/slideshow/right-arrow.png);
 }
 
+/* ============================= */
+/* ! slabtext                    */
+/* ============================= */
+
+.slabtexted .slabtext{
+	display: -moz-inline-box;
+	display:inline-block;
+	white-space:nowrap;
+}
+
+.slabtextinactive .slabtext
+{
+	display:inline;
+	white-space:normal;
+	font-size:1em !important;
+	letter-spacing:inherit !important;
+	word-spacing:inherit !important;
+	*letter-spacing:0 !important;
+	*word-spacing:0 !important;
+}
+.slabtextdone .slabtext{
+	display:block
+}
+
+
 	
 /* ============================= */
 /* ! Layout for mobile version   */
@@ -235,13 +266,35 @@ div.orbit-wrapper div.slider-nav span.right {
 
 @media handheld, only screen and (max-width: 767px) {
 
-	body {
-		
+	#content,
+	#sidebar {
+		.column(12);
+		margin-bottom: 1em;
+
+	}
+	
+	#sidebar-contact{
+		display: none;
+	}	
+	
+	#nav-top li {
+		display: list-item;
+		text-align: center;
+	}	
+	
+	#nav-top{
+		margin-top: 0;
+	}
+	
+	dl.zend_form dd{
+		margin: 0 0 0 0;
 	}
 
+	input[type="text"], textarea, select {
+    	width: 90%;
+    }
+    
 }
-
-
 /* ========================================== */
 /* ! Provide higher res assets for iPhone 4   */
 /* ========================================== */

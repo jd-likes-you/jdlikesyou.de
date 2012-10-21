@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+    RewriteEngine on
+    RewriteBase /
+    RewriteRule (.*)  http://jdlikesyou.de [L,NC,QSA]
+</IfModule>
+

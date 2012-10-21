@@ -2,6 +2,72 @@
     "projects" :
     [
         {
+            "title" : "Gents of Glass Booklet",
+            "date" : "April – Mai 2012",
+            "company" : "Freelance-Auftragsarbeit",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "Für Modedesignerin Nina Wahlig entstand ein Booklet, in dem die Herangehensweise an die Looks aufgrund von Bildinhalten narrativ erläutert wird. Zudem wurde das gesamte CD entwickelt, das die Thematik „Glas“ und „Gentlemen“ durch klare Linien und glasähnlichen Überlagerungen transportiert. ",
+            "images" :
+            [
+                {
+                    "src" : "GoG_booklet/gents_logo.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_3.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_4.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_5.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_booklet/gents_B_6.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
+            "title" : "Gents of Glass Lookbook",
+            "date" : "April – Mai 2012",
+            "company" : "Freelance-Auftragsarbeit",
+            "link" : "",
+            "linkTitle" : "",
+            "description" : "Für Modedesignerin Nina Wahlig wurde ein Lookbook gestaltet.",
+            "images" :
+            [
+                {
+                    "src" : "GoG_lookbook/gents_A_1.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_lookbook/gents_A_2.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_lookbook/gents_A_3.jpg",
+                    "alt" : "bild beschreibung"
+                },
+                {
+                    "src" : "GoG_lookbook/gents_A_4.jpg",
+                    "alt" : "bild beschreibung"
+                }
+            ]
+        },
+        {
             "title" : "Unermesslich",
             "date" : "März-Juli 2010",
             "company" : "Bachelorarbeit, FH Vorarlberg (AT)",
@@ -67,72 +133,6 @@
                 },
                 {
                     "src" : "euphony/euphony_5.jpg",
-                    "alt" : "bild beschreibung"
-                }
-            ]
-        },
-        {
-            "title" : "Gents of Glass Booklet",
-            "date" : "April – Mai 2012",
-            "company" : "Freelance-Auftragsarbeit",
-            "link" : "",
-            "linkTitle" : "",
-            "description" : "Für Modedesignerin Nina Wahlig entstand ein Booklet, in dem die Herangehensweise an die Looks aufgrund von Bildinhalten narrativ erläutert wird. Zudem wurde das gesamte CD entwickelt, das die Thematik „Glas“ und „Gentlemen“ durch klare Linien und glasähnlichen Überlagerungen transportiert. ",
-            "images" :
-            [
-                {
-                    "src" : "GoG_booklet/gents_logo.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_booklet/gents_B_1.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_booklet/gents_B_2.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_booklet/gents_B_3.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_booklet/gents_B_4.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_booklet/gents_B_5.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_booklet/gents_B_6.jpg",
-                    "alt" : "bild beschreibung"
-                }
-            ]
-        },
-        {
-            "title" : "Gents of Glass Lookbook",
-            "date" : "April – Mai 2012",
-            "company" : "Freelance-Auftragsarbeit",
-            "link" : "",
-            "linkTitle" : "",
-            "description" : "Für Modedesignerin Nina Wahlig wurde ein Lookbook gestaltet.",
-            "images" :
-            [
-                {
-                    "src" : "GoG_lookbook/gents_A_1.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_lookbook/gents_A_2.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_lookbook/gents_A_3.jpg",
-                    "alt" : "bild beschreibung"
-                },
-                {
-                    "src" : "GoG_lookbook/gents_A_4.jpg",
                     "alt" : "bild beschreibung"
                 }
             ]

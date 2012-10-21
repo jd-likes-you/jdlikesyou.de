@@ -16,5 +16,6 @@ function fade() {
 
 $(document).ready(function(){
     fade();
-    window.setInterval(fade, 1800);
+    window.setInterval(fade, 2800);
+    $("#introtext").slabText();
 });
