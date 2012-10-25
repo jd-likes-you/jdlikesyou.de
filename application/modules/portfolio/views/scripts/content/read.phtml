@@ -1,4 +1,7 @@
-<?php foreach ($this->projects as $project): ?>
+<?php if (count($this->paginator)): ?>
+
+<?php foreach ($this->paginator as $project): ?>
+
 <h1><?php echo $project['title']; ?></h1>
 
 <div class="slideshow">
@@ -17,8 +20,10 @@
     <br>
     <a href="<?php echo $project['link']; ?>"><?php echo $project['linkTitle']; ?></a>
 </p>
-
 <?php endforeach;?>
 
-
+<?php echo $this->paginationControl($this->paginator,
+                                    'Sliding',
+                                    'content/itemPagination.phtml'); ?>
+<?php endif; ?>
 

@@ -14,31 +14,43 @@
 					</defaults>
 				</home>
 				<webdesign>
-					<route>webdesign</route>
+					<route>webdesign/:page</route>
 					<defaults>
 						<module>portfolio</module>
 						<controller>content</controller>
 						<action>read</action>
 						<category>webdesign</category>
+						<page>1</page>
 					</defaults>
+					<reqs>
+						<page>\d+</page>
+					</reqs>
 				</webdesign>
 				<print>
-					<route>print</route>
+					<route>print/:page</route>
 					<defaults>
 						<module>portfolio</module>
 						<controller>content</controller>
 						<action>read</action>
 						<category>print</category>
+						<page>1</page>
 					</defaults>
+					<reqs>
+						<page>\d+</page>
+					</reqs>
 				</print>
 				<miscellaneous>
-					<route>miscellaneous</route>
+					<route>miscellaneous/:page</route>
 					<defaults>
 						<module>portfolio</module>
 						<controller>content</controller>
 						<action>read</action>
 						<category>miscellaneous</category>
+						<page>1</page>
 					</defaults>
+					<reqs>
+						<page>\d+</page>
+					</reqs>
 				</miscellaneous>
 				<vita>
 					<route>vita</route>

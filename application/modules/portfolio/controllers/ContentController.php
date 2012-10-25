@@ -13,6 +13,14 @@ class Portfolio_ContentController extends JdLikesYou_Controller_Action
         $content = $content->toArray();
         
         $this->view->assign(self::CATEGORY, $categoryName);
-        $this->view->assign(self::PROJECTS, $content[self::PROJECTS]);
+
+        $paginator = new Zend_Paginator(new Zend_Paginator_Adapter_Array($content[self::PROJECTS]));
+        $paginator->setCurrentPageNumber($this->_getParam('page'));
+        $paginator->setItemCountPerPage(3);
+        $this->view->paginator = $paginator;
+        
+        $page = $this->view->navigation()->findOneByRoute($categoryName); 
+        /* @var $page Zend_Navigation_Page */
+        $page->setActive();
     }
 }
