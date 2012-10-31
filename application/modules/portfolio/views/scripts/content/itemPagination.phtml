@@ -1,32 +1,17 @@
-<!--
-See http://developer.yahoo.com/ypatterns/pattern.php?pattern=itempagination
--->
- 
 <?php if ($this->pageCount): ?>
-<div class="paginationControl">
+<span class="paginationControl">
     <!-- Previous page link -->
     <?php if (isset($this->previous)): ?>
       <a href="<?php echo $this->url(array('page' => $this->previous)); ?>">
-        &lt; Vorherige Seite</a> |
-    <?php else: ?>
-      <span class="disabled">&lt; Vorherige Seite</span> |
+        &lt; Vorheriges Projekt</a> |
     <?php endif; ?>
-     
-    <!-- Numbered page links -->
-    <?php foreach ($this->pagesInRange as $page): ?>
-      <?php if ($page != $this->current): ?>
-        <a href="<?php echo $this->url(array('page' => $page)); ?>"><?php echo $page; ?></a> |
-      <?php else: ?>
-        <span class="activePage"><?php echo $page; ?></span> |
-      <?php endif; ?>
-    <?php endforeach; ?> 
-     
+
     <!-- Next page link -->
     <?php if (isset($this->next)): ?>
       <a href="<?php echo $this->url(array('page' => $this->next)); ?>">
-        Nächste Seite &gt;</a>
-    <?php else: ?>
-      <span class="disabled">Nächste Seite &gt;</span>
+        Nächstes Projekt &gt;</a>
     <?php endif; ?>
-</div>
+</span>
+
+<span class="activePage">Projekt <?php echo $this->current; ?> von <?php echo $this->pageCount; ?></span>
 <?php endif; ?>

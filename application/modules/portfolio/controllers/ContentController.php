@@ -16,7 +16,7 @@ class Portfolio_ContentController extends JdLikesYou_Controller_Action
 
         $paginator = new Zend_Paginator(new Zend_Paginator_Adapter_Array($content[self::PROJECTS]));
         $paginator->setCurrentPageNumber($this->_getParam('page'));
-        $paginator->setItemCountPerPage(3);
+        $paginator->setItemCountPerPage(1);
         $this->view->paginator = $paginator;
         
         $page = $this->view->navigation()->findOneByRoute($categoryName); 
