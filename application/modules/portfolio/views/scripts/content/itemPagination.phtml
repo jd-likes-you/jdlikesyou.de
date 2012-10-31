@@ -3,9 +3,13 @@
     <!-- Previous page link -->
     <?php if (isset($this->previous)): ?>
       <a href="<?php echo $this->url(array('page' => $this->previous)); ?>">
-        &lt; Vorheriges Projekt</a> |
+        &lt; Vorheriges Projekt</a>
     <?php endif; ?>
-
+    
+    <?php if (isset($this->previous) && isset($this->next)): ?>
+    |
+    <?php endif; ?>
+    
     <!-- Next page link -->
     <?php if (isset($this->next)): ?>
       <a href="<?php echo $this->url(array('page' => $this->next)); ?>">
