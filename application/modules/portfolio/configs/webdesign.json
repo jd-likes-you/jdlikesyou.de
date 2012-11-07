@@ -13,19 +13,19 @@
             [
                 {
                     "src" : "insm-1-juli/1juli-anzeige-1.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Die interaktive Anzeige zeigt das Bundeskabinett in der Mittagspause. Der Nutzer kann durch benutzen der 							„Tröte“ die Politiker wieder zur Arbeit bewegen."
                 },
                 {
                     "src" : "insm-1-juli/1juli-anzeige-2.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Die interaktive Anzeige zeigt das Bundeskabinett in der Mittagspause. Der Nutzer kann durch benutzen der 							„Tröte“ die Politiker wieder zur Arbeit bewegen."
                 },
                 {
                     "src" : "insm-1-juli/1juli-anzeige-3.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Die interaktive Anzeige zeigt das Bundeskabinett in der Mittagspause. Der Nutzer kann durch benutzen der 							„Tröte“ die Politiker wieder zur Arbeit bewegen."
                 },
                  {
                     "src" : "insm-1-juli/1juli-anzeige-4.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Die interaktive Anzeige zeigt das Bundeskabinett in der Mittagspause. Der Nutzer kann durch benutzen der 							„Tröte“ die Politiker wieder zur Arbeit bewegen."
                 }
             ]
         },
@@ -41,11 +41,11 @@
             [
                 {
                     "src" : "insm-social-media-appearance/SMA-1.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Gestaltung des Auftritts im Social Media Bereich (Welcome–, Landingpage, FB-Quiz, etc.)."
                 },
                 {
                     "src" : "insm-social-media-appearance/SMA-2.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Gestaltung des Auftritts im Social Media Bereich (Welcome–, Landingpage, FB-Quiz, etc.)."
                 }      
             ]
         },
@@ -60,17 +60,18 @@
             [
                 {
                     "src" : "msn-originals/msn-originals-hunting-1.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Visualisierung verschiedener neuartiger Konzepte. Hier: „Hunting for a better world“."
                 },
                 
                  {
                     "src" : "msn-originals/msn-originals-webvs-1.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Visualisierung verschiedener neuartiger Konzepte. Hier: „VS- the web showdown“."
                 },
                 
                 {
                     "src" : "msn-originals/msn-originals-webvs-2.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Visualisierung verschiedener neuartiger Konzepte. Hier: „VS- the web showdown“."
+
                 }
                 
             ]
@@ -86,16 +87,16 @@
             [
                 {
                     "src" : "stamas-bildungsmesse/stamas-1.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Im Pitch für den neuen Webauftritt der Berufsbildungsmesse soll die jugendliche Zielgruppe mehr angesprochen werden. Ebenso wurde eine mobile Applikation angedacht."
                 },
                 {
                     "src" : "stamas-bildungsmesse/stamas-2.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Im Pitch für den neuen Webauftritt der Berufsbildungsmesse soll die jugendliche Zielgruppe mehr angesprochen werden. Ebenso wurde eine mobile Applikation angedacht."
                 }
             ]
         },
         {
-            "title" : "INSM Infografiken Arbeit",
+            "title" : "INSM Infografik Arbeit",
             "date" : "Dezember 2011",
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "http://www.insm.de/insm/kampagne/wachstum/vernichtet-fortschritt-arbeitsplaetze.html",
@@ -105,12 +106,12 @@
             [
                 {
                     "src" : "insm-infografik-arbeit/insm-infografik-arbeit.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Erklärende Visualisierung der Aussage „Geht den Deutschen die Arbeit aus?“.""
                 }
             ]
       	},
         {
-            "title" : "INSM Infografiken Europa",
+            "title" : "INSM Infografik Europa",
             "date" : "Dezember 2011",
             "company" : "Saint Elmo’s Entertainment Berlin",
             "link" : "http://www.insm.de/insm/kampagne/wachstum/wachstum-rettet-europa.html",
@@ -120,7 +121,7 @@
             [
                 {
                     "src" : "insm-infografik-europa/insm-infografik-europa.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Erklärende Visualisierung der Aussage „Diese Formel kann Europa retten!“."
                 }
             ]
 		},
@@ -137,7 +138,7 @@
             [
                 {
                     "src" : "msn-tvtyp/msn-tvtyp.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Ein Quiz dient dazu das passenden TV-Paket für die persönlichen Ansprüche zu finden. Die TV-Typen wurden im Hintergrund skizziert."
                 }
             ]
         },
@@ -153,7 +154,7 @@
             [
                 {
                     "src" : "insm-blog/insm-blog.jpg",
-                    "alt" : "bild beschreibung"
+                    "alt" : "Angelehnt an dem Webauftritt der INSM wurde das Design für das Blog erarbeitet. Darin werden „jüngere“ Inhalte tagesaktuell veröffentlicht. "
                 }
             ]
         }
