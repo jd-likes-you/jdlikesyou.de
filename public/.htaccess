@@ -25,6 +25,20 @@ AddType image/x-icon                   ico
 AddType text/x-vcard                   vcf
 AddType text/cache-manifest            appcache manifest
 
+<IfModule mod_expires.c>
+	# Turn on Expires and set default to 0
+	ExpiresActive On
+	ExpiresDefault A0
+	
+	# Set up caching on media files for 1 year (forever?)
+	<FilesMatch "\.(js|css|png|jpg|flv|ico|pdf|avi|mov|ppt|doc|mp3|wmv|wav)$">
+	ExpiresDefault A29030400
+	Header append Cache-Control "public"
+	</FilesMatch>
+</IfModule>
+
+FileETag MTime Size
+
 <IfModule mod_rewrite.c>
     RewriteEngine on
     RewriteBase /
